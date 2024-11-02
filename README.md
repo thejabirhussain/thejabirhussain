@@ -25,7 +25,6 @@ I'm skilled in various technologies and always excited to explore more:
 
 ### 📊 GitHub Stats
 ![Jabir's GitHub stats](https://github-readme-stats.vercel.app/api?username=thejabirhussain&show_icons=true&theme=radical)
-![Jabir's GitHub stats](https://github-readme-stats.vercel.app/api?username=thejabirhussain&show_icons=true&theme=radical)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=thejabirhussain&layout=compact&theme=radical)
 
 ### 🌱 Recent Community Initiatives
