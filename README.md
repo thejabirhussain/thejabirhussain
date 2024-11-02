@@ -24,6 +24,7 @@ I'm skilled in various technologies and always excited to explore more:
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
 ### 📊 GitHub Stats
+![Activity Graph](https://activity-graph.herokuapp.com/graph?username=thejabirhussain&theme=github)
 ![Jabir's GitHub stats](https://github-readme-stats.vercel.app/api?username=thejabirhussain&show_icons=true&theme=radical)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=thejabirhussain&layout=compact&theme=radical)
 
