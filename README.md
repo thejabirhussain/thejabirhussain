@@ -28,7 +28,7 @@ I'm skilled in various technologies and always excited to explore more:
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=thejabirhussain&layout=compact&theme=radical)
 
 ### 🌱 Recent Community Initiatives
-- Conducted tech awareness workshops for 300+ students in government schools
+- Conducted tech awareness workshops for 1,600+ Students along with Goverment of Andra Pradesh
 - Mentored participants in the [Code Without Barrier](https://www.linkedin.com/company/code-without-barriers?trk=public_post_feed-actor-name) program, focusing on bridging gaps in tech education
 - Collaborating with aspiring writers and educators for **Meaningful Monday**, a newsletter sharing exclusive insights on tech, finance, business, education, and psychology
 
