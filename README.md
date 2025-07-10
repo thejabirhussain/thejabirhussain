@@ -98,12 +98,12 @@ A simple but effective **task management tool** for individuals and teams.
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 ---
+## 📈 GitHub Stats
 
+![Jabir's GitHub stats](https://github-readme-stats.vercel.app/api?username=thejabirhussain&show_icons=true&theme=default)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=thejabirhussain&layout=compact)
 
-## 📊 GitHub Contribution Graph
-
-![GitHub contribution graph](https://raw.githubusercontent.com/thejabirhussain/thejabirhussain/output/github-contribution-grid-snake.svg)
-
+> 📊 128+ contributions in the last year | Product-focused | AI-powered tooling
 ---
 
 ## 🌍 Community & Impact
