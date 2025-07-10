@@ -46,56 +46,22 @@ A legal document parsing tool using **NLP and regex pipelines** to extract claus
 A simple but effective **task management tool** for individuals and teams.  
 **Tech Used**: ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=nodedotjs&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
-## 🛠️ My Tech Stack
-
 ---
 
-### 💻 Languages  
-&nbsp;  
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+## 🛠️ My Tech Stack
 
-### 🎨 Frontend  
-&nbsp;  
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-![EJS](https://img.shields.io/badge/EJS-3178C6?style=for-the-badge&logo=ejs&logoColor=white)
+**Languages:** Java, JavaScript, Dart, Python, C++
 
-### 🧩 Backend  
-&nbsp;  
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-black?style=for-the-badge&logo=express&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge&logo=api&logoColor=white)
+**Frontend:** React.js, Next.js, Flutter, React Native, Tailwind CSS, Bootstrap, EJS
 
-### 🛢️ Databases  
-&nbsp;  
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+**Backend:** Node.js, Express.js, Firebase, REST APIs
 
-### 🤖 AI / Automation  
-&nbsp;  
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-4B8BBE?style=for-the-badge&logo=chainlink&logoColor=white)
-![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-7B16FF?style=for-the-badge&logo=openai&logoColor=white)
-![NLP](https://img.shields.io/badge/NLP-Natural_Language_Processing-blue?style=for-the-badge&logo=python&logoColor=white)
-![Transformers](https://img.shields.io/badge/Transformers-HuggingFace-yellow?style=for-the-badge&logo=huggingface&logoColor=black)
+**Databases:** MongoDB, MySQL
 
-### 🧰 Tools  
-&nbsp;  
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+**AI & Automation:** OpenAI APIs, LangChain, Prompt Engineering, NLP, Transformers
+
+**Tools:** VS Code, Git, Postman, Docker, GitHub Actions, Figma
+
 
 ---
 ## 📈 GitHub Stats
