@@ -1,46 +1,105 @@
-# Hi there! 👋 I'm Jabir Hussain
+# 👋 Hi, I'm Jabir Hussain
 
-I'm a technologist, educator, and entrepreneur passionate about creating impactful educational content and developing innovative solutions in tech. I run an EdTech platform, **Imaginary Hub**, aiming to build India’s largest learning community, where students can learn, collaborate, and grow together.
+A **technologist, product builder, and entrepreneur** passionate about using technology to solve real-world problems in **education**, **business automation**, and **community growth**.
 
-### 🚀 Current Projects and Initiatives
-- **Imaginary Hub**: Building a community-driven EdTech platform where anyone can learn anything from the best educators at a minimal cost.
-- **Comprehensive Java + DSA Course**: A free, in-depth course on Java and Data Structures available on [YouTube](https://www.youtube.com/@ImaginaryHub), covering 50+ hours of content.
-- **Document Analysis Model**: An NLP-based project aimed at simplifying the contract analysis process for businesses, helping them handle legal documents efficiently.
-- **Web Development Course**: A beginner-to-advanced web development course with real-world projects, launching soon!
-
-### 🔧 Skills and Technologies
-I'm skilled in various technologies and always excited to explore more:
-- **Programming Languages**: Java, Python, C, C++, JavaScript
-- **Frontend**: HTML, CSS, Bootstrap, Tailwind CSS, EJS
-- **Backend**: Node.js, Express, Firebase
-- **Databases**: MongoDB, MySQL
-- **Cloud Platforms**: AWS, Azure
-- **Other Skills**: NLP, EdTech, Business Strategy
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-
-### 📊 GitHub Stats
-![Jabir's GitHub stats](https://github-readme-stats.vercel.app/api?username=thejabirhussain&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=thejabirhussain&layout=compact&theme=radical)
-
-### 🌱 Recent Community Initiatives
-- Conducted tech awareness workshops for 1,600+ Students along with Goverment of Andra Pradesh
-- Mentored participants in the [Code Without Barrier](https://www.linkedin.com/company/code-without-barriers?trk=public_post_feed-actor-name) program, focusing on bridging gaps in tech education
-- Collaborating with aspiring writers and educators for **Meaningful Monday**, a newsletter sharing exclusive insights on tech, finance, business, education, and psychology
-
-### 🌐 Connect with Me
-I'm always open to connecting with like-minded people! Feel free to reach out on:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thejabirhussain/)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@ImaginaryHub)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/yourhandle)
+I lead multiple projects that aim to redefine how people **learn**, **create**, and **build**. From full-stack development and AI agents to content platforms and scalable EdTech systems — my work blends code with purpose.
 
 ---
 
-*"Empowering students and building communities through technology and knowledge."* 🚀
+## 🚀 Current Products & Platforms
+
+### 🧠 Imaginary Hub – [Visit YouTube](https://www.youtube.com/@ImaginaryHub)
+A fast-growing **EdTech ecosystem** offering free high-quality content, career-driven courses (Java + DSA, Web Dev), and a student-powered learning community.  
+> ✅ 200K+ reach | 1600+ students trained | 10+ school/college workshops
 
 ---
 
+### 🤖 Unified AI Product (Multi-Agent System)
+A suite of **AI agents** working together to automate workflows for students, writers, and developers.  
+> Built using LLMs + Node.js + MongoDB + Prompt Chaining  
+> Includes: **AI Writing Agent**, **AI Code Generator**, **AI Newsletter Creator**
+
+---
+
+### 💡 AI Code Generator (Custom Dev Agent)
+An intelligent agent that interprets prompts, generates code, builds UI, and deploys web apps — tailored for developers and founders.  
+> React + Tailwind + Express + MongoDB powered | Context-aware code generation
+
+---
+
+### 📰 Meaningful Monday (Newsletter + Platform)
+A content discovery platform offering **deep, insightful writing** across Tech, Finance, Business, Psychology, and Education.  
+> Built with custom article writing tools, analytics dashboard, EJS templating system, and category-specific curation.
+
+---
+
+### 📄 Document Analysis Model (NLP)
+An AI-powered tool to help **startups & legal teams** analyze contracts and legal docs using NLP.  
+> Python + Transformers + Regex pipelines for context mapping and entity extraction
+
+---
+
+### 📋 Task Tracker Tool
+A lightweight project management tool built with teams and students in mind.  
+> Node.js · MongoDB · JavaScript · Modular productivity-focused UI
+
+---
+
+## 🛠️ Tech Stack
+
+**Languages**:  
+`Java` · `JavaScript` · `Dart` · `Python` · `C++`
+
+**Frontend**:  
+`React.js` · `Next.js` · `Flutter` · `React Native` · `Tailwind CSS` · `Bootstrap` · `EJS`
+
+**Backend**:  
+`Node.js` · `Express.js` · `Firebase` · `REST APIs`
+
+**Databases**:  
+`MongoDB` · `MySQL`
+
+**AI/NLP**:  
+`OpenAI APIs` · `Transformers` · `LangChain` · `Custom Prompt Chaining`
+
+**Tools**:  
+`Git` · `Postman` · `VS Code` · `Figma` · `Docker` · `GitHub Actions`
+
+---
+
+## 📈 GitHub Contributions
+
+> 128+ contributions in the past year across multiple projects & open-source tooling.
+
+### Highlights
+- [`task-tracker`](https://github.com/ShaikMoinuddin98/task-tracker)
+- [`Twitter-Trends`](https://github.com/ShaikMoinuddin98/Twitter-Trends)
+- [`Docker-Auto`](https://github.com/ShaikMoinuddin98/Docker-Auto...)
+
+![Jabir's GitHub stats](https://github-readme-stats.vercel.app/api?username=thejabirhussain&show_icons=true&theme=default)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=thejabirhussain&layout=compact)
+
+---
+
+## 🌍 Impact & Community Work
+
+- 🏫 Led workshops for 1600+ students in collaboration with Andhra Pradesh Government
+- 🧑‍🏫 Mentored students through the **Code Without Barrier** initiative
+- 💡 Built an internal writer platform for **Meaningful Monday contributors**
+- 🧠 Advocating for **tech + education + community** as tools for social upliftment
+
+---
+
+## 📬 Let’s Connect
+
+I'm always open to collaboration in:
+
+> 🚀 EdTech · AI Automation · Dev Tools · SaaS Products · Community Projects
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thejabirhussain/)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/@ImaginaryHub)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/thejabirhussain)
+
+---
+
+> _“I don’t just write code — I build tools that educate, empower, and enable.”_
