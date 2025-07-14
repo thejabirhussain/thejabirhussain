@@ -69,7 +69,7 @@ A simple but effective **task management tool** for individuals and teams.
 ![Jabir's GitHub stats](https://github-readme-stats.vercel.app/api?username=thejabirhussain&show_icons=true&theme=default)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=thejabirhussain&layout=compact)
 
-> 📊 128+ contributions in the last year | Product-focused | AI-powered tooling
+> 📊 350+ contributions in the last year | Product-focused | AI-powered tooling
 ---
 
 ## 🌍 Community & Impact
