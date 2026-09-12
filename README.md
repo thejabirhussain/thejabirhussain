@@ -1,92 +1,56 @@
-# 👋 Hi, I'm Jabir Hussain
+# Mohammed Jabir Hussain Shaik
 
-A passionate **technologist, researcher, and entrepreneur** building AI-first products, developer tools, and scalable education systems. My mission is to empower students, creators, and businesses through well-engineered technology.
+**MSc Artificial Intelligence, Queen's University Belfast** · AI engineer working towards research
 
----
+I spent the last few years building AI systems in production — retrieval-augmented generation, clinical decision support, document understanding, multi-agent tooling — and teaching myself the mathematics underneath them along the way. I'm now at Queen's to do the other half properly: understanding *why* these models work, where they break, and what can be built when you stop treating them as black boxes.
 
-## 🚀 Products I've Built
-
-### 🧠 Imaginary Hub  
-[![Badge](https://img.shields.io/badge/Imaginary_Hub-Education-blue?style=flat-square&logo=academia&logoColor=white)](https://www.youtube.com/@ImaginaryHub)  
-A student-led EdTech platform delivering **free structured courses**, peer collaboration, and India’s most accessible tech learning ecosystem.  
-**Tech Used**: ![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=nodedotjs&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
+**Goal:** a funded PhD in AI, October 2027.
 
 ---
 
-### 🤖 AI Code Generator  
-[![Badge](https://img.shields.io/badge/AI_Code_Generator-Automated_Coding-orange?style=flat-square&logo=openai&logoColor=white)](https://github.com/thejabirhussain)  
-An LLM-powered agent that **understands prompts, generates code, and builds deployable apps**.  
-**Tech Used**: ![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat&logo=openai&logoColor=white) ![Express](https://img.shields.io/badge/-Express-black?style=flat&logo=express&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
+## Research interests
+
+**AI for health.** Most of the value in clinical AI isn't the model — it's everything around it. Fragmented patient records, missing labels, the fact that a recommendation is useless unless a clinician can see why it was made. I'm interested in **multimodal and self-supervised models for clinical decision support**: systems that help doctors assess and plan faster, with interpretable, cited reasoning, rather than systems that try to replace their judgement.
+
+**World models and spatial intelligence.** Language models are extraordinary at text and close to helpless in three dimensions. They don't represent space, position or movement in any grounded way. I think the next significant step is models that can simulate and navigate the physical world — which matters for robotics, autonomous systems, and surgical technology alike.
+
+**Foundations.** Linear algebra, probability and optimisation, read properly rather than skimmed. Most engineering intuitions about deep learning are downstream of a handful of theorems.
 
 ---
 
-### 🧠 Unified AI – Deep Research Agent Suite  
-[![Badge](https://img.shields.io/badge/Unified_AI_AgentSuite-Research_Automation-9cf?style=flat-square&logo=ai&logoColor=black)](https://github.com/thejabirhussain)  
-A multi-agent system designed to **simulate cognitive workflows**, power deep research, and assist with knowledge-intensive tasks.  
-**Tech Used**: ![LangChain](https://img.shields.io/badge/-LangChain-4B8BBE?style=flat&logo=chainlink&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+## Selected work
+
+| Project | What it is | Stack |
+|---|---|---|
+| [**AI Clinical Decision Support**](https://github.com/thejabirhussain/AI-CLINICAL-DECISION-SUPPORT-SYSTEM) | RAG service and clinical dashboard that returns **verifiable citations** from trusted medical guidelines for every answer, with OCR-based patient data ingestion | FastAPI · Qdrant · React · Python 3.11 |
+| [**Autonomous QA Intelligence (ReQon)**](https://github.com/thejabirhussain/Autonomous_QA_Intelligence_Platform) | Self-driving crawler running 20+ detectors across functional, UI, performance, accessibility, SEO and security; uses an LLM to eliminate false positives and builds a **knowledge graph** of defects | FastAPI · Neo4j · React |
+| [**Enterprise AI Copilot**](https://github.com/thejabirhussain/Enterprise-AI-Copilot) | Production-grade RAG platform with semantic search, role-based access control and data governance, running a **fully local LLM stack** | FastAPI · Qdrant · Ollama · TypeScript |
+| [**Arabic → English OCR**](https://github.com/thejabirhussain/ARABIC-ENGLISH-OCR) | Arabic OCR over scanned PDFs with layout preservation, then neural translation. **No API keys — fully open models** | Tesseract · Helsinki-NLP opus-mt · FastAPI |
+| [**Legal Intake Platform**](https://github.com/thejabirhussain/legal-intake-platform) | WhatsApp-based client intake with AI triage and a workflow dashboard for legal professionals | Python · Meta Cloud API |
+| [**Imaginary Hub AI Labs**](https://github.com/thejabirhussain/Imaginary-Hub-AI-Labs) | Open AI curriculum I write and teach: mathematical foundations alongside production engineering builds | Python · Markdown |
 
 ---
 
-### 📰 Meaningful Monday – Newsletter Platform  
-[![Badge](https://img.shields.io/badge/Meaningful_Monday-Tech_Insights-success?style=flat-square&logo=gmail&logoColor=white)](https://github.com/thejabirhussain)  
-A full-stack newsletter system with **editor UI, scheduling, analytics, and contributor management**.  
-**Tech Used**: ![EJS](https://img.shields.io/badge/-EJS-3178C6?style=flat&logo=ejs&logoColor=white) ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
+## Skills
+
+**Machine learning & research** — PyTorch · transformers · RAG architectures · vector databases (Qdrant) · embeddings and semantic search · OCR pipelines · LLM evaluation · experiment design
+
+**Engineering** — Python · TypeScript · FastAPI · React · Node.js · Neo4j · MongoDB · Docker · REST APIs
+
+**Mathematics** — linear algebra · probability & statistics · optimisation · information theory
+
+**Currently learning** — ontology engineering and knowledge representation · knowledge graphs with LLMs · computer vision · multimodal foundation models
 
 ---
 
-### 📄 NLP Document Analyzer  
-[![Badge](https://img.shields.io/badge/Document_Analyzer-Legal_NLP-ff69b4?style=flat-square&logo=python&logoColor=white)](https://github.com/thejabirhussain)  
-A legal document parsing tool using **NLP and regex pipelines** to extract clauses, parties, and obligations.  
-**Tech Used**: ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) ![Transformers](https://img.shields.io/badge/-Transformers-FF9900?style=flat&logo=huggingface&logoColor=white)
+## Teaching
+
+I run [**Imaginary Hub**](https://www.youtube.com/@ImaginaryHub), where I teach AI and computer science to students in India — free, structured, and built on the idea that explaining something properly is the fastest way to understand it yourself.
 
 ---
 
-### 📋 Task Tracker  
-[![Badge](https://img.shields.io/badge/Task_Tracker-Productivity_App-00bfff?style=flat-square&logo=todoist&logoColor=white)](https://github.com/thejabirhussain)  
-A simple but effective **task management tool** for individuals and teams.  
-**Tech Used**: ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=nodedotjs&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+## Elsewhere
 
----
+[Google Scholar](https://scholar.google.com/citations?user=f4gX2kgAAAAJ) · [LinkedIn](https://www.linkedin.com/in/thejabirhussain) · `mshaik01@qub.ac.uk`
 
-## 🛠️ My Tech Stack
-
-**Languages:** Java, JavaScript, Dart, Python, C++
-
-**Frontend:** React.js, Next.js, Flutter, React Native, Tailwind CSS, Bootstrap, EJS
-
-**Backend:** Node.js, Express.js, Firebase, REST APIs
-
-**Databases:** MongoDB, MySQL
-
-**AI & Automation:** OpenAI APIs, LangChain, Prompt Engineering, NLP, Transformers
-
-**Tools:** VS Code, Git, Postman, Docker, GitHub Actions, Figma
-
-
----
-## 📈 GitHub Stats
-
-![Jabir's GitHub stats](https://github-readme-stats.vercel.app/api?username=thejabirhussain&show_icons=true&theme=default)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=thejabirhussain&layout=compact)
-
-> 📊 350+ contributions in the last year | Product-focused | AI-powered tooling
----
-
-## 🌍 Community & Impact
-
-- 🏫 Trained 1600+ students via Govt. of Andhra Pradesh initiatives  
-- 🧑‍🏫 Mentored learners through **Code Without Barrier**  
-- 🧠 Created free courses on Java + DSA and full-stack development  
-- 📝 Built and managed contributor systems for newsletter writers
-
----
-
-## 📬 Let’s Connect
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thejabirhussain/)
-[![YouTube](https://img.shields.io/badge/-YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@ImaginaryHub)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/thejabirhussain)
-
----
-
-> _“I don’t just write code — I love building products that educate, automate, and scale impact.”_
+*Belfast, Northern Ireland*
