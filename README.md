@@ -2,7 +2,7 @@
 
 MSc Artificial Intelligence, Queen's University Belfast · AI engineer
 
-I build AI systems that run in production — retrieval-augmented generation, clinical decision support, document understanding, autonomous testing — and I measure whether they can be trusted. Those two halves feed each other: building a system is how I find the failure worth studying, and studying it changes what I build next.
+I ship AI systems into production, and I measure whether they deserve to be trusted. Those are the same job done twice: building a system at scale is how I find the failure that is worth studying, and studying it properly changes what I build next. The work below is split that way — what I measured, and what I shipped — because neither half is interesting without the other.
 
 ---
 
@@ -22,16 +22,30 @@ My first design was confounded: the ε-ball rule standard in the literature admi
 
 ---
 
-## What I build
+## Shipped
 
-| Project | What it is | Stack |
+Production work as an AI engineer at XIT Solutions, and for its clients through AxeGenAI.
+
+**A real-time voice tutor** teaching English to Urdu-speaking schoolchildren, for Developing in Literacy, Pakistan. The hard bug was not the model: the Gemini Live path never signalled end of turn, so roughly **27% of conversational turns timed out**. Diagnosing and fixing it took that to **zero**. I then rebuilt voice-activity detection with adaptive thresholds and validated it against **100+ simulated room profiles**, because a classroom in Karachi is not a recording studio. Shipped to the Play Store on Android 16.
+
+**A multi-agent workflow system** for a US real-estate group. A transaction event triggers router, asset and template agents on Azure AI Foundry, which fill Canva templates, store the renders, create Publer drafts and notify staff in Teams. Runs end to end across both residential and commercial divisions.
+
+**Document intelligence for financial records** — scanned Arabic PDFs to English with layout preserved, built entirely on open models (OCRmyPDF/Tesseract, Helsinki-NLP opus-mt) so nothing leaves the customer's infrastructure. This pipeline is where I first saw numerically wrong output that looked perfectly correct, which became the research above.
+
+**TRACE**, an agentic SDLC framework I designed at management's request: one agent per lifecycle stage, Azure DevOps as the state machine, schema-checked handoffs and three human approval gates. Tests are written before the code and blind to it, so a passing test is independent evidence rather than a tautology. Backed by a 164-page sourced review of industry practice.
+
+---
+
+## Open source
+
+| Project | What it actually does | Stack |
 |---|---|---|
-| [**AI Clinical Decision Support**](https://github.com/thejabirhussain/AI-CLINICAL-DECISION-SUPPORT-SYSTEM) | RAG service and clinical dashboard returning **verifiable citations** from trusted medical guidelines for every answer, with OCR-based patient data ingestion | FastAPI · Qdrant · React |
-| [**Autonomous QA Intelligence (ReQon)**](https://github.com/thejabirhussain/Autonomous_QA_Intelligence_Platform) | Self-driving crawler running 20+ detectors across functional, UI, performance, accessibility, SEO and security; LLM-based false-positive elimination and a **knowledge graph** of defects | FastAPI · Neo4j · React |
-| [**Enterprise AI Copilot**](https://github.com/thejabirhussain/Enterprise-AI-Copilot) | Production-grade RAG platform with semantic search, role-based access control and data governance, on a **fully local LLM stack** | FastAPI · Qdrant · Ollama · TypeScript |
-| [**Arabic → English OCR**](https://github.com/thejabirhussain/ARABIC-ENGLISH-OCR) | Arabic OCR over scanned PDFs with layout preservation, then neural translation — **entirely open models, no API keys** | Tesseract · Helsinki-NLP opus-mt · FastAPI |
-| [**Legal Intake Platform**](https://github.com/thejabirhussain/legal-intake-platform) | WhatsApp-based client intake with AI triage and a workflow dashboard for legal professionals | Python · Meta Cloud API |
-| [**Imaginary Hub AI Labs**](https://github.com/thejabirhussain/Imaginary-Hub-AI-Labs) | Open AI curriculum I write and teach: mathematical foundations alongside production engineering builds | Python · Markdown |
+| [**AI Clinical Decision Support**](https://github.com/thejabirhussain/AI-CLINICAL-DECISION-SUPPORT-SYSTEM) | 11,000 MedQuAD passages in Qdrant (HNSW). 40 candidates retrieved, similarity-filtered, cross-encoder reranked to 3; **every answer cites its sources, and it abstains** when nothing clears the cutoff rather than answering from memory. Runs fully local, so patient documents never leave the machine | FastAPI · Qdrant · Llama 3.2 · React |
+| [**Autonomous QA Intelligence (ReQon)**](https://github.com/thejabirhussain/Autonomous_QA_Intelligence_Platform) | Self-driving crawler running **29 defect detectors** across functional, UI, performance, accessibility, SEO and security; an LLM pass removes false positives and a Neo4j graph links pages, features and defects | FastAPI · Neo4j · Playwright · Celery |
+| [**Enterprise AI Copilot**](https://github.com/thejabirhussain/Enterprise-AI-Copilot) | RAG where **retrieval itself is filtered by each user's access level** — not just the answer. Request audit logging, streamed responses, and a step-by-step trace of the retrieval pipeline. No API keys anywhere | FastAPI · Qdrant · Ollama · TypeScript |
+| [**Arabic → English OCR**](https://github.com/thejabirhussain/ARABIC-ENGLISH-OCR) | Layout-preserving Arabic OCR over scanned PDFs, then neural translation — **entirely open models** | Tesseract · opus-mt · FastAPI |
+| [**Legal Intake Platform**](https://github.com/thejabirhussain/legal-intake-platform) | WhatsApp Cloud API state machine gathering client, case and incident details; switches between GPT-4 and a local model; feeds a lawyer dashboard with AI case summaries | Python · Meta Cloud API |
+| [**Imaginary Hub AI Labs**](https://github.com/thejabirhussain/Imaginary-Hub-AI-Labs) | The curriculum I teach from — e.g. PCA implemented from scratch in NumPy and checked against scikit-learn | Python · NumPy |
 
 ---
 
@@ -61,7 +75,9 @@ My first design was confounded: the ε-ball rule standard in the literature admi
 
 ## Teaching
 
-I run [**Imaginary Hub**](https://www.youtube.com/@ImaginaryHub), where I teach AI and computer science to students in India — free, structured, and built on the idea that explaining something clearly is the fastest way to understand it yourself.
+I founded [**Imaginary Hub**](https://www.youtube.com/@ImaginaryHub) in my second undergraduate year and have taught AI and computer science through it since: **6,000+ learners**, **1,600+ students** trained through government-partnered programmes, 10+ workshops in schools and colleges, and **148 videos** on mathematics for ML, LLM internals and system design. I also built the platform it runs on (React, Node.js, MongoDB, AWS, payments, video delivery).
+
+I keep doing it because explaining something clearly is the fastest way to find out whether you actually understand it.
 
 ---
 
