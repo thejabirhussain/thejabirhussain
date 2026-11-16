@@ -1,8 +1,24 @@
 # Mohammed Jabir Hussain Shaik
 
-**AI engineer** · MSc Artificial Intelligence, Queen's University Belfast
+MSc Artificial Intelligence, Queen's University Belfast · AI engineer
 
-I build AI systems that run in production — retrieval-augmented generation, clinical decision support, document understanding, autonomous testing — and I study the mathematics and theory underneath them. The two halves feed each other: the engineering keeps the theory honest, and the theory decides what's worth building.
+I build AI systems that run in production — retrieval-augmented generation, clinical decision support, document understanding, autonomous testing — and I measure whether they can be trusted. Those two halves feed each other: building a system is how I find the failure worth studying, and studying it changes what I build next.
+
+---
+
+## Research
+
+**Character accuracy conceals numerical error** — [code](https://github.com/thejabirhussain/silent-corruption-clinical-ai) · preprint under screening at Research Square
+
+I built a retrieval-based clinical decision support system, then measured it on the kind of document photographs real clinics produce. At 100 dpi, character accuracy was still **88.9%** — the figure a standard OCR benchmark reports — while **32.3% of extracted laboratory values were wrong**. Of those corrupted values, **47.3% carried the same abnormality flag as the truth**, so the error passed the alerting layer unseen.
+
+The point isn't that OCR is imperfect. It's that the metric everyone reports cannot see the failure that matters, and thresholding hides it rather than catching it. Presented as a poster at the Vision and Language Symposium, Queen's University Belfast, October 2026.
+
+**Does predictive multiplicity grow as the training set shrinks?** — [code](https://github.com/thejabirhussain/multiplicity-small-n) · manuscript in preparation
+
+Models that score identically can still disagree about which individual patients they flag. Every study I could find measures this at one fixed sample size. Across **30 public datasets**, holding the size of the near-optimal model set fixed, disagreement was higher at the smallest training size than the largest in **28 of them**.
+
+My first design was confounded: the ε-ball rule standard in the literature admits a number of models that itself varies with *n*. Finding that out was worth more than the result, and it implies published ambiguity figures aren't comparable across papers unless Rashomon set size is reported — which it usually isn't. The failed design is in the repository alongside the one that worked.
 
 ---
 
@@ -26,6 +42,8 @@ I build AI systems that run in production — retrieval-augmented generation, cl
 **World models and spatial intelligence.** Language models are remarkable on text and close to helpless in three dimensions; they have no grounded representation of space, position or movement. Models that can simulate and navigate the physical world seem to me the more interesting frontier, and the one robotics, autonomous systems and surgical technology all depend on.
 
 **Foundations.** Linear algebra, probability and optimisation read properly rather than skimmed — most engineering intuitions about deep learning turn out to be downstream of a handful of theorems.
+
+**Evaluation.** The thread running through both studies above: a headline metric that moves in the right direction while the thing you actually care about gets worse. I'd like to get better at designing evaluations that can fail honestly.
 
 ---
 
