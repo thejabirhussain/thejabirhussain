@@ -8,13 +8,13 @@ I ship AI systems into production, and I measure whether they deserve to be trus
 
 ## Research
 
-**Character accuracy conceals numerical error** — [code](https://github.com/thejabirhussain/silent-corruption-clinical-ai) · preprint under screening at Research Square
+**Character accuracy conceals numerical error** — [preprint](https://doi.org/10.21203/rs.3.rs-11720966/v1) · [code](https://github.com/thejabirhussain/silent-corruption-clinical-ai) · Research Square, 19 Nov 2026, not peer reviewed
 
-I built a retrieval-based clinical decision support system, then measured it on the kind of document photographs real clinics produce. At 100 dpi, character accuracy was still **88.9%** — the figure a standard OCR benchmark reports — while **32.3% of extracted laboratory values were wrong**. Of those corrupted values, **47.3% carried the same abnormality flag as the truth**, so the error passed the alerting layer unseen.
+I built a retrieval-based clinical decision support system, then measured it on the kind of document photographs real clinics produce. At 100 dpi, character accuracy was still **88.9%** — the figure a standard OCR benchmark reports — while **32.3% of extracted laboratory values were wrong**. Of those corrupted values, **47.3% carried the same abnormality flag as the truth**, so the error passed the alerting layer unseen. Because flags are threshold quantisations, an already-abnormal value was corrupted silently far more often than a normal one (61.7% against 22.1%, risk ratio 2.80).
 
-The point isn't that OCR is imperfect. It's that the metric everyone reports cannot see the failure that matters, and thresholding hides it rather than catching it. Presented as a poster at the Vision and Language Symposium, Queen's University Belfast, October 2026.
+The point isn't that OCR is imperfect. It's that the metric everyone reports cannot see the failure that matters, and thresholding hides it rather than catching it. Fine-tuning the recogniser made held-out accuracy **worse** by 8.1 points. What worked was upscaling the page before recognition, and requiring two independently built readers to agree — which caught **193 of 193** corruptions at a 19.8% review rate. Presented as a poster at the Vision and Language Symposium, Queen's University Belfast, October 2026.
 
-**Does predictive multiplicity grow as the training set shrinks?** — [code](https://github.com/thejabirhussain/multiplicity-small-n) · manuscript in preparation
+**Does predictive multiplicity grow as the training set shrinks?** — [code](https://github.com/thejabirhussain/multiplicity-small-n) · manuscript in preparation, not yet posted
 
 Models that score identically can still disagree about which individual patients they flag. Every study I could find measures this at one fixed sample size. Across **30 public datasets**, holding the size of the near-optimal model set fixed, disagreement was higher at the smallest training size than the largest in **28 of them**.
 
